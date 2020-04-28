@@ -1,0 +1,55 @@
+{
+    "title": "COVID-19 India Statewise Reported Cases Timeseries",
+    "subtitle": "COVID-19 daily reported cases for Indian states",
+    "description": "#Context\nThis dataset provides a timeseries of COVID-19 reported cases including cured/migrated information of states of India.\nThe data is available from 30th January 2020 onwards. \n\n#Content\nThe data is in CSV format and has 5 columns.\n\nDate: Date in DD-MM-YYYY format\nState: Name if the state\nTotal Confirmed Cases: Total number of confirmed cases as on Date\nCured/Discharged/Migrated: Total number of cured, discharged or migrated cases as on Date\nDeath: Total number of deaths as on Date\n\nAll figures are cumulative.\n\n#Acknowledgements\nThis dataset is created and maintained using the data available in public domain. The state-wise COVID-19 cases in India are published by Ministry of Health and Family Welfare, Government of India on their website https://www.mohfw.gov.in/. A snapshot of the data on the above website is taken at 11PM IST(UTC+05.30) daily and appended to this dataset. \nPart of the data for initial period is taken from India Today COVID-19 Tracker at https://www.indiatoday.in/india/story/coronavirus-cases-in-india-covid19-states-cities-affected-1653852-2020-03-09.\n\nBanner Photo by Martin Sanchez on Unsplash",
+    "id": "amitsavant/covid19-india-statewise-reported-cases-timeseries", 
+    "isPrivate": false,
+    "licenses": [
+        {
+            "name": "CC0-1.0"
+        }
+    ],
+    "keywords": [
+        "india",
+        "healthcare",
+        "time series",
+        "natural and physical sciences",
+        "infectious diseases",
+        "covid19"
+    ],
+    "collaborators": [],
+    "data": [
+        {
+            "description": "COVID-19 CSV file",
+            "name": "covid19-india-statewise-timeseries.csv",
+            "totalBytes": 38498,
+            "columns": [
+                {
+                    "name": "Date",
+                    "description": "Date in DD-MM-YYYY format",
+                    "type": "String"
+                },
+                {
+                    "name": "State",
+                    "description": "Name of province",
+                    "type": "String"
+                },
+                {
+                    "name": "Total Confirmed Cases",
+                    "description": "Cumulative confirmed cases",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Cured/Discharged/Migrated",
+                    "description": "Cumulative recovered cases",
+                    "type": "Uuid"
+                },
+                {
+                    "name": "Death",
+                    "description": "Cumulative deaths",
+                    "type": "Uuid"
+                }
+            ]
+        }
+    ]
+}

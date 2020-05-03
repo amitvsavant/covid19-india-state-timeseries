@@ -4,3 +4,6 @@ misc/
 test/
 src/.ipynb_checkpoints
 src/starter-covid-19-india-statewise-0a94139a-5.ipynb
+src/hotspots.ipynb
+src/pdf2pandas.ipynb
+src/shape2geojson.ipynb

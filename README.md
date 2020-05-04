@@ -5,7 +5,7 @@ The data and the visualization kernel is also published on [Kaggle](https://www.
 
 ## Structure of the project
 
-###data folder
+### data folder
 
 **covid19-india-statewise-timeseries.csv:**  The CSV file containing the timeseries data. The data is available from 30th January 2020 onwards. All figures are cumulative. The data has 5 columns.
 
@@ -17,7 +17,7 @@ Death: Total number of deaths as on Date
 
 **dataset-metadata.json:**  The metadata file of the dataset for Kaggle.
 
-###src folder
+### src folder
 **COVID-19 India Timeseries Visualization.ipynb:** Python notebook containing basic data visualization.
 
 **kaggle.ipynb:** Python notebook used to upload data to Kaggle using Kaggle Python APIs.
